@@ -133,7 +133,7 @@ sequelize.sync().then(function() {
 	});
 
 	Invoice.create({
-		customer_id: 3,
+		customer_id: 1,
 		discount: 33,
 		total: 345.25
 	});
